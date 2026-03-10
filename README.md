@@ -2,7 +2,7 @@
 
 ### Portfólio digital que desenvolvi para meu irmão usando apenas HTML, CSS e JS
 
-## Screenshot
+## Screenshots
 
 ![screenshot](screenshotDEMO1.png)
 ![screenshot](screenshotDEMO2.png)
