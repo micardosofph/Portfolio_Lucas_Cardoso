@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Lucas Cardoso</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/faviconLightMode.png" media="(prefers-color-scheme: light)">
+    <link rel="shortcut icon" href="images/faviconDarkMode.png" media="(prefers-color-scheme: dark)">
 </head>
 
 <header>
@@ -25,8 +26,8 @@
                 <div class="intro">
                     <div class="intro-wrapper-images">
                         <img src="images/about/arrow.svg" alt="arrow" class="arrow-image">
-                        <img style="z-index: 1; position: absolute;" src="images/about/avatar.svg" alt="Avatar">
-                        <img style="z-index: 0; width: 25vw;" src="images/about/radial.svg" alt="">
+                        <img style="z-index: 1;" src="images/about/avatar.svg" alt="Avatar">
+                        <img style="z-index: 0; position: absolute; min-width: 25vw; max-width: 80vw;" src="images/about/radial.svg" alt="">
                     </div>
                     <div>
                         <span class="text-1 text-preahvihear">Olá, eu sou o <span class="text-1-highlight">Lucas
@@ -134,16 +135,16 @@
     </section>
     <section id="projects">
         <div class="project">
-            <div>
+            <div class="project-titulo-wrapper">
                 <p class="project-titulo font-poppins">Recod AI</p>
                 <p class="project-subtitulo font-poppins">Automated UTest</p>
             </div>
 
             <div class="project-descricao-wrapper">
                 <p class="project-descricao font-poppins">
-                    O objetivo era automatizar o processo de geração de UTests para projetos <br> com Java. <br>
-                    Para isso, foram utilizadas técnicas de prompt engineering e RAG, além do <br>desenvolvimento
-                    completo de uma ferramenta capaz de mapear classes <br>e dependencias de um repositorio.
+                    O objetivo era automatizar o processo de geração de UTests para projetos com Java. <br>
+                    Para isso, foram utilizadas técnicas de prompt engineering e RAG, além do desenvolvimento
+                    completo de uma ferramenta capaz de mapear classes e dependencias de um repositorio.
                 </p>
             </div>
 
@@ -152,22 +153,18 @@
                 <img src="images/projects/RecodAI2.svg" alt="RecodAI2" class="project-image project1-image2">
             </div>
         </div>
-    </section>
-    <section>
-
-
 
         <div class="project">
-            <div style="justify-self: end;">
+            <div class="project-titulo-wrapper2">
                 <p class="project-titulo font-poppins">Unicamp</p>
                 <p class="project-subtitulo font-poppins">Fill Up</p>
             </div>
 
             <div class="project-descricao-wrapper" style="justify-self: end;">
                 <p class="project-descricao font-poppins">
-                    Aplicativo que incetiva a realização de tarefas diárias <br>alinhadas com ODS da ONU.
-                    Desenvolvido inteiramente em Flutter utilizando conceitos de <br>engenharia de software como padrão
-                    Facade e <br>Desenvolvimento Ágil.
+                    Aplicativo que incetiva a realização de tarefas diárias alinhadas com ODS da ONU.
+                    Desenvolvido inteiramente em Flutter utilizando conceitos de engenharia de software como padrão
+                    Facade e Desenvolvimento Ágil.
                 </p>
             </div>
 
@@ -175,12 +172,9 @@
                 <img src="images/projects/UnicampFillUp.svg" alt="RecodAI1" class="project-image project2-image1">
             </div>
         </div>
-    </section>
-
-    <section>
 
         <div class="project">
-            <div>
+            <div class="project-titulo-wrapper">
                 <p class="project-titulo font-poppins">Unicamp</p>
                 <p class="project-subtitulo font-poppins">Great Grades</p>
             </div>
@@ -188,8 +182,7 @@
             <div class="project-descricao-wrapper">
                 <p class="project-descricao font-poppins">
                     Aplicativo de organização de estudos para universitários.
-
-                    Totalmente desenvolvido em java utilizando Arquitetura <br>MVC e Scrum.
+                    Totalmente desenvolvido em java utilizando Arquitetura MVC e Scrum.
                 </p>
             </div>
 
