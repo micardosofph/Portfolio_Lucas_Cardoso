@@ -23,7 +23,7 @@
 
 Acesse o link do github pages do projeto: https://micardosofph.github.io/Portfolio_Lucas_Cardoso/
 
-## Como executar
+## Como fazer edições no código
 
 1. Clone o repositório
 
