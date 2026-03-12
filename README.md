@@ -19,6 +19,10 @@
 - Timeline interativa
 - Recriação do liquid glass usando css nativo
 
+## Como testar
+
+Acesse o link do github pages do projeto: https://micardosofph.github.io/Portfolio_Lucas_Cardoso/
+
 ## Como executar
 
 1. Clone o repositório
